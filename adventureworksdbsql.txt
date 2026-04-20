@@ -1,0 +1,197 @@
+-- 1. Customers with last names starting with 'A' 
+
+-- Scenario: The marketing department is preparing a campaign targeting customers whose last names begin with the letter 'A'. They need a list of these customers to personalize outreach messages. 
+
+ 
+
+select * 
+
+FROM SalesLT.Customer  
+
+WHERE LastName like '%a'; 
+
+ 
+
+-- 2. Customers with first name starting with 'A' and last name ending with 'a' 
+
+-- Scenario: The CRM team is analyzing customer name patterns for personalization strategies. They're particularly interested in users with a first name starting with 'A' and a last name ending in 'a'. 
+
+ 
+
+select * 
+
+FROM SalesLT.Customer 
+
+WHERE LastName like '%a'AND FirstName like 'a%'; 
+
+ 
+
+ 
+
+-- 3. Count of customers with first name starting with 'A' and last name including 'o' 
+
+-- Scenario: A data analyst is generating statistics for a name segmentation report and needs to count how many customers meet both criteria: first name starts with 'A' and last name contains the letter 'o'. 
+
+ 
+
+select * 
+
+FROM SalesLT.Customer 
+
+WHERE LastName like '%o%'AND FirstName like 'a%'; 
+
+ 
+
+-- 4. Top 3 black products of size 'S' ordered by list price 
+
+-- Scenario: The merchandising team is curating a list of 'Black' colored products in size 'S' for a limited-time promotion. They want to showcase the top 3 most affordable options first. 
+
+ 
+
+select top 3 * 
+
+FROM SalesLT.Product 
+
+WHERE color='Black' AND size = 'S' 
+
+Order by ListPrice asc; 
+
+ 
+
+-- 5. Average standard cost of products 
+
+-- Scenario: The finance team is calculating the average standard cost across all products to assess baseline production expenses. 
+
+ 
+
+select AVG(StandardCost) as AverageStandardCost 
+
+FROM SalesLT.Product; 
+
+ 
+
+-- 6. Difference between average standard cost and average list price 
+
+-- Scenario: The pricing strategy team is examining the average markup between the standard cost and the list price to evaluate profitability trends. 
+
+ 
+
+select AVG(StandardCost) as AverageStandardCost,AVG(ListPrice) as AverageListPrice, AVG(ListPrice)-AVG(StandardCost) as AverageMarkup 
+
+FROM SalesLT.Product; 
+
+ 
+
+-- 7. Product with highest profit margin 
+
+-- Scenario: Management wants to identify the most profitable product by finding the item with the highest difference between list price and standard cost. 
+
+ 
+
+select top 1 Name, SUM(ListPrice-StandardCost) as ProfitMargin  
+
+FROM SalesLT.Product  
+
+group by Name 
+
+Order by ProfitMargin desc; 
+
+ 
+
+-- 8. Number of products per category 
+
+-- Scenario: Inventory control needs a summary of how many products exist in each product category to manage stock levels effectively. 
+
+ 
+
+ 
+
+select pc.name, Count(*) as ProductCount 
+
+FROM SalesLT.Product p 
+
+JOIN SalesLT.ProductCategory pc on p.ProductCategoryID = pc.ProductCategoryID 
+
+Group by pc.name; 
+
+ 
+
+-- 9. Average list price by category 
+
+-- Scenario: The product pricing team is reviewing average list prices by category to adjust pricing strategies and identify outliers. 
+
+ 
+
+select pc.name, avg(p.ListPrice) as AverageListPrice 
+
+FROM SalesLT.Product p 
+
+JOIN SalesLT.ProductCategory pc on p.ProductCategoryID = pc.ProductCategoryID 
+
+Group by pc.name; 
+
+ 
+
+-- 10. Orders with customer information 
+
+-- Scenario: The operations team needs a comprehensive report of customer orders, including order details and basic customer info, to review sales performance. 
+
+select soh.SalesOrderID,c.CustomerID,c.FirstName, c.LastName, c.CompanyName, c.EmailAddress, sod.SalesOrderDetailID, sod.ProductID, sod.OrderQty, sod.UnitPrice, sod.UnitPriceDiscount 
+
+FROM SalesLT.SalesOrderHeader soh 
+
+JOIN SalesLT.Customer c ON soh.CustomerID = c.CustomerID 
+
+JOIN SalesLT.SalesOrderDetail sod ON soh.SalesOrderID = sod.SalesOrderID; 
+
+ 
+
+-- 11. Products priced above average list price 
+
+-- Scenario: The sales team wants to identify premium products that are priced above the average list price for highlighting in high-end marketing campaigns. 
+
+ 
+
+select Name, ListPrice, AVG(ListPrice) as AverageListPrice 
+
+FROM SalesLT.Product  
+
+WHERE ListPrice > (select AVG(ListPrice) FROM SalesLT.Product) 
+
+group by Name,ListPrice 
+
+Order by ListPrice DESC; 
+
+ 
+
+-- 12. Total quantity sold per product 
+
+-- Scenario: The business intelligence team is evaluating product performance by analyzing the total quantity sold for each product across all orders. 
+
+select p.name, SUM(sod.OrderQty) as TotalQuantitySold 
+
+from SalesLT.SalesOrderDetail sod 
+
+join SalesLT.Product p ON sod.ProductID = p.ProductID 
+
+group by p.name; 
+
+ 
+
+-- 13. Total sales per customer 
+
+-- Scenario: The customer success team wants to calculate the total value of orders placed by each customer to identify high-value clients for loyalty programs. 
+
+ 
+
+select c.FirstName, c.LastName, SUM(sod.UnitPrice * sod.OrderQty) as TotalSales 
+
+from SalesLT.Customer c 
+
+join SalesLT.SalesOrderHeader soh ON c.CustomerID = soh.CustomerID 
+
+join SalesLT.SalesOrderDetail sod ON soh.SalesOrderID = sod.SalesOrderID 
+
+group by c.FirstName, c.LastName 
+
+order by TotalSales desc; 
