@@ -13,6 +13,10 @@ I'm a data analytics educator based in the UK. I teach Python, SQL, Excel, Power
 
 ## Selected projects –
 
+**PivotTables in Excel**
+I created a [Pivot Table](pivottable.png) in Excel using a dataset about sales volumes of different products in different regions. This Pivot Table made it easy to see where products were being sold well and not so well. I also used format options to fill blanks with 0s to create an easier Pivot Table to read.
+
+
 **Intro to Python for Data Analysis**
 
 – Python notebooks covering data types, loops, and basic Pandas.
