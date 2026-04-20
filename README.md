@@ -1,2 +1,2 @@
-# data-analytics-portfolio
-Data tasks I have completed
+# Data-analytics-portfolio
+Data analytics tasks I have completed
