@@ -25,9 +25,13 @@ Using a healthcare dataset called GapminderHealth, I produced a [visual](tableau
 
 Using another dataset concerning Spotify statistics, I produced a [dashboard](spotifyanalysisdashtableau.png) comprised of different visuals I had created in Tableau. I made each visual in a separate worksheet, using different types of graphs based on the information being displayed - bar charts for statistics for artists and songs, and scatter plots for visualising trends in different aspects of the music. From this experience, I learnt how to form an appealing dashboard that displays relevant information without overcrowding it.
 
-**PowerBI**
+**PowerBI Visuals**
 
-blablabla
+Using an Adventure Works database, I created a [visual](pbirunningsum.png) in PowerBI to showcase quarterly sales, using a line graph. I used DAX to create a calculated field for the running sum of sales for each year and used the field in the visual to show the progress for each year more clearly. From this experience, I learnt how DAX can be used to create measures from which data analysis can be done, and I learnt how to display data on a visualisation to aid this analysis.
+
+**PowerBI Dashboards**
+
+Using a football dataset I found online containing match results from July 2000 onwards, I created visuals to analyse the effects of home advantage across the top 5 leagues, looking at wins, goals, shots, and corners, and formed a [dashboard](footballpowerbi.png) using them. I used a pie chart to show the proportions of results, and column charts to comparre the statistics. From this experience, I learnt how to create a visually appealing dashboard on PowerBI, using features like slicers and filters to break information down.
 
 **MySQL Queries**
 
