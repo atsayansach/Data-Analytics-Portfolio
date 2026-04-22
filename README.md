@@ -39,10 +39,14 @@ I installed and used MySQL Workbench to [query](SQL_example_queries.txt) world d
 
 Using Azure SQL database, I [queried](adventureworksdbsql.txt) an Adventure Works database to answer business questions. I structured my queries based on the data required to answer the questions and used fundamental functions such as SELECT, FROM, WHERE, as well as more advanced functions such as JOIN and GROUP BY. From this experience, I learnt how to load up a database in Azure SQL database, and was able to see the benefit of using a cloud based platform that doesn't require installation to run SQL queries.
 
+**If,Else, and Loops**
+
+Using Python, I was able to experiment with [if,elif,else,for,and while](ifsandloops.ipynb) functions in Google Colab. Practicing these functions allowed me to gain experience with using them, and I was even able to combine them in some places, such as combining an if function with a while loop. From this experience, I gained confidence in using these functions in Python, and I was able to grasp an idea of how to use them in a data analysis context
+
 
 **Visualisations in Python**
 
-Using Python, I created [visualisations](visualisations_practice.ipynb) from a GDP and a student dataset. I imported matplotlib.pyplot and seaborn into the Google Colab worksheet and used functions to create an array of visualisations, such as heatmaps and histograms. From this experience, I learnt how simple it was to use code to create visualisations in Python, and how using importing different libraries can be beneficial for data analysis.
+Using Python, I created [visualisations](visualisations_practice.ipynb) from a GDP and a student dataset. I imported matplotlib and seaborn into the Google Colab worksheet and used functions to create an array of visualisations, such as heatmaps and histograms. From this experience, I became confident in using code to create visualisations in Python, and how importing different libraries can provide more options for visualisations, allowing for a larger variety of options for data analysis.
      
 
 
@@ -50,8 +54,3 @@ Using Python, I created [visualisations](visualisations_practice.ipynb) from a G
 
 - Email: *atsayan25@gmail.com*
 
-
-
-
-**python**
-[Visualisation Practice](visualisations_practice.ipynb)
