@@ -1,4 +1,4 @@
-# Data-analytics-portfolio
+# Data Analytics Portfolio
 
 # Hi, I'm Atsayan,
 
