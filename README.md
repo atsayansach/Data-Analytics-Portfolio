@@ -46,10 +46,11 @@ Another insight I found from the task was the highest sold product by sales volu
 
 This task shows that I am capable of using Excel to analyse data by using pivot tables.
 
----
 ## Stomach Cancer analysis using a Tableau visual
 
-**Dataset used:** Gapminder Health
+### Dataset 
+
+Gapminder Health
 
 This dataset contains data from different countries, their life expectancy, population, and different health conditions and cases across both genders
 
@@ -57,35 +58,55 @@ Source: via bootcamp, all datasets are from Kaggle
 
 This dataset covers 158 countries from 1990 to 2008, tracking 13 health conditions. Global average life expectancy across the dataset ranges from 26 to 86.
 
-**Type of business:** Pharmaceutical Companies
+### Type of business 
+
+The analysis would benefit pharmaceutical companies
 
 This task would be important for a pharmaceutical company because they can use the analysis to see what health conditions are on an upward trend to target those markets.
 
-**Task:** I produced a [visual](tableauvisual.png) that showed stomach cancer cases in 5 different continents by men and women. I began the task by cleaning the data in Excel, exploring the data, and loading it into Tableau. I then selected the fields I would need for my analysis which were Stomach Cancer, Gender, and Continent. I selected a bar chart as the visual suited for comparing the number of stomach cancer cases across gender and continents and formatted the bars to distinguish male and female cases. I then wrote up my findings.
+### Task: 
 
-**Insights:** An insight I found from this task was that there are more cases of stomach cancer in men than women. A pharmaceutical company can use this insight to inform them about targeting production to the male market and advertising towards them.
+I produced a [visual](tableauvisual.png) that showed stomach cancer cases in 5 different continents by men and women. I began the task by cleaning the data in Excel, exploring the data, and loading it into Tableau. I then selected the fields I would need for my analysis which were Stomach Cancer, Gender, and Continent. I selected a bar chart as the visual suited for comparing the number of stomach cancer cases across gender and continents and formatted the bars to distinguish male and female cases. I then wrote up my findings.
+
+### Insights 
+
+An insight I found from this task was that there are more cases of stomach cancer in men than women. A pharmaceutical company can use this insight to inform them about targeting production to the male market and advertising towards them.
 
 Another insight I found from the task was there were much more cases in Asia than any other continent. This could suggest to a pharmaceutical company that stomach cancer is more prevalent in Asia so they should advertise and target the Asia market to increase profit.
 
-### Popularity Analysis for Spotify tracks in a Tableau dashboard
+### Summary
 
-**Dataset used:** Spotify Features
+This task proves that I am capable of creating appealing visuals in Tableau that show meaningful insights to stakeholders
 
-This dataset contains information about songs on Spotify and their artists, genre, popularity, and audio features/attributes
+## Popularity Analysis for Spotify tracks in a Tableau dashboard
 
-Source: via bootcamp, all datasets are from Kaggle
+### Dataset
 
-The dataset covers 232,725 tracks and 18 different audio features. The popularity ranges from 0 to 100 and has an average of 41, meaning the data has a well-distributed variety of tracks.
+- Spotify Features
 
-**Type of business:** Record Labels
+- This dataset contains information about songs on Spotify and their artists, genre, popularity, and audio features/attributes
 
-This task would be important for a record label because they can use the data to assess what audio features are trending to inform what style of tracks they should invest in, and they can see how successful artists that are currently signed to their label are.
+- Source: via bootcamp, all datasets are from Kaggle
 
-**Task:** I produced a [dashboard](spotifytableau.png) that showcased different visuals that I had created in Tableau to analyse popularity in Spotify. The first step was to clean the data. Here, I needed to be careful because track ID's were repeated in the dataset, however, this was because the tracks were part of different genres, and to carry out a genre=level analysis, I needed to ensure that I did not remove those duplicates. I then created visuals in Tableau for the popularity analyses I wanted to do which were a bar chart comparing popularity across genres, a bar chart comparing popularity across artists, a scatter plot comparing danceability against popularity, and a scatter plot comparing duration against popularity. I then wrote up my findings.
+- The dataset covers 232,725 tracks and 18 different audio features. The popularity ranges from 0 to 100 and has an average of 41, meaning the data has a well-distributed variety of tracks.
 
-**Insights:** An insight I found from this task was that there is a positive correlation between danceability and popularity. This could suggest to a record label that tracks with more danceability will get more Spotify streams and they should encourage artists to make more danceable songs or scout artists that produce more danceable songs.
+## Type of business 
 
-Another insight I found from the task was the most popular tracks on Spotify were between 3.5 and 4 minutes. This could suggest to a record label that if their artists release tracks in that duration range, they will get more streams, so they should encourage artists under their label to aim for this.
+Record labels could use this analysis to assess what audio features are trending to inform what style of tracks they should invest in, and they can see how successful artists that are currently signed to their label are.
+
+### Task 
+
+I produced a [dashboard](spotifytableau.png) that showcased different visuals that I had created in Tableau to analyse popularity in Spotify. The first step was to clean the data. Here, I needed to be careful because track ID's were repeated in the dataset, however, this was because the tracks were part of different genres, and to carry out a genre=level analysis, I needed to ensure that I did not remove those duplicates. I then created visuals in Tableau for the popularity analyses I wanted to do which were a bar chart comparing popularity across genres, a bar chart comparing popularity across artists, a scatter plot comparing danceability against popularity, and a scatter plot comparing duration against popularity. I then wrote up my findings.
+
+### Insights 
+
+- An insight I found from this task was that there is a positive correlation between danceability and popularity. This could suggest to a record label that tracks with more danceability will get more Spotify streams and they should encourage artists to make more danceable songs or scout artists that produce more danceable songs.
+
+- Another insight I found from the task was the most popular tracks on Spotify were between 3.5 and 4 minutes. This could suggest to a record label that if their artists release tracks in that duration range, they will get more streams, so they should encourage artists under their label to aim for this.
+
+### Summary
+
+This tasks shows that I can create meaningful dashboards in Tableau that stakeholders can access and easily take insights from
 
 ### PowerBI Visuals
 
@@ -176,9 +197,74 @@ Another insight I found from the task was that 7 students acheived a grade D. Th
 This task shows that I am capable of using Python to carry out data analysis and derive meaningful insights from it
 
 
-### Visualisations in Python
+## GDP per capita analysis and visualisations with Python in Google Colab
 
-Using Python, I created [visualisations](visualisations_practice.ipynb) from a GDP and a student dataset. I imported matplotlib and seaborn into the Google Colab worksheet and used functions to create an array of visualisations, such as heatmaps and histograms. From this experience, I became confident in using code to create visualisations in Python, and how importing different libraries can provide more options for visualisations, allowing for a larger variety of options for data analysis.
+### Dataset 
+
+The dataset used for this analysis was GDP (nominal) per capita.csv
+
+This dataset contains information about countries, their UN region, GDP estimates from IMF, WorldBank, and UN, and the years for those estimates
+
+Source: via bootcamp
+
+The dataset contains 222 countries across 5 regions, as well as an entry for world.
+
+### Business
+
+ Investment banks would benefit from this task.
+
+They could use the analysis to see which regions have higher GDP estimates and choose to invest in those countries, or compare estimates per country and see if they align.
+
+### Task
+
+ I analysed the GDP (nominal) per capita.csv dataset with Python in [Google Colab](GDPvisualisations.iypnb). I began by importing pandas, matplotlib, and seaborn libraries into my notebook, mounted the notebook to Google Drive, and then imported the dataset into the notebook. I then set the dataframe as df to make coding easier. I imported pyplot from matpolotlib as plt and used them in conjunction with pandas functions to plot scatter plots and histograms. I then used seaborn which I had imported as sns earlier to plot heatmaps and barplots. I then wrote up my findings.
+
+### Insights
+
+ An insight I found from this task was that Europe had higher IMF_estimate in total compared to other regions. This could suggest to an investment bank that Europe is more prosperous and they may choose to invest in European markets.
+
+Another insight I found from the task was that UN and WorldBank estimates have a linear relationship and they are proportional to one another. This could suggest to investment banks that both estimates are similar to one another and they can use both estimates in their decisions.
+
+
+### Summary
+
+This task shows that I am capable of using Python to carry out data analysis and derive meaningful insights from it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using Python, I created [visualisations](GDPvisualisations.ipynb) from a GDP and a student dataset. I imported matplotlib and seaborn into the Google Colab worksheet and used functions to create an array of visualisations, such as heatmaps and histograms. From this experience, I became confident in using code to create visualisations in Python, and how importing different libraries can provide more options for visualisations, allowing for a larger variety of options for data analysis.
      
 
 
