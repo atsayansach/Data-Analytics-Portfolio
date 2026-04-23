@@ -104,10 +104,6 @@ I produced a [dashboard](spotifytableau.png) that showcased different visuals th
 
 This tasks shows that I can create meaningful dashboards in Tableau that stakeholders can access and easily take insights from
 
-### PowerBI Visuals
-
-Using an Adventure Works database, I created a [visual](pbirunningsum.png) in PowerBI to showcase quarterly sales, using a line graph. I used DAX to create a calculated field for the running sum of sales for each year and used the field in the visual to show the progress for each year more clearly. From this experience, I learnt how DAX can be used to create measures from which data analysis can be done, and I learnt how to display data on a visualisation to aid this analysis.
-
 ## Home advantage in football Power BI dashboard
 
 ### Dataset
