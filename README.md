@@ -40,6 +40,19 @@ I produced a [Pivot Table](PivotTable.png) that showed the sales volumes by prod
 
 This task shows that I am capable of using Excel to analyse data by using pivot tables.
 
+## Visualising Revenue by Age Groups in Excel
+
+## Dataset
+
+- Bike Sales Pivot Lab
+
+- This dataset contains information about a bike shop's sales and customers.
+
+- Source: via bootcamp, all datasets are from Kaggle
+
+- 
+
+
 ## Stomach Cancer analysis using a Tableau visual
 
 ### Dataset 
