@@ -4,10 +4,6 @@
 
 I'm a 2025 graduate from the University of Nottingham with an 2:1 MSci in Biotechnology, and working towards a Level 3 Data Skills Bootcamp certification with Leep Talent, learning and polishing key skills and gaining experience in work-simulated settings to prepare myself for a Junior Data Analyst role.
 
----
-
-# This Portfolio
-
 The purpose of this portfolio is to showcase the wide range of skills and experience I have acquired during the bootcamp, and how I have been able to put them to use within different softwares to answer business questions.
 
 ---
