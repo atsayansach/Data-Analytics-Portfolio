@@ -50,7 +50,13 @@ This task shows that I am capable of using Excel to analyse data by using pivot 
 
 - Source: via bootcamp, all datasets are from Kaggle
 
-- 
+I
+I
+I
+I
+I
+I
+I
 
 
 ## Stomach Cancer analysis using a Tableau visual
@@ -112,6 +118,32 @@ I produced a [dashboard](spotifytableau.png) that showcased different visuals th
 ### Summary
 
 This tasks shows that I can create meaningful dashboards in Tableau that stakeholders can access and easily take insights from
+
+## Visual calculations for bicycle sales summary
+
+### Dataset
+
+- adventureworks.db
+
+- This dataset contains infromation for a bicycle company's sales, customers, employees, products, and more
+
+- Source: Microsoft
+
+-  The dataset covers 121,317 sales, 19,820 customers, 290 employees, and 504 products.
+
+### Business
+
+A bicycle retailer company would benefit from this analysis because they will be able to see how their sales and profits have changed over years to use in data-driven decisions
+
+### Task
+
+I
+I
+I
+I
+I
+I
+I
 
 ## Home advantage in football Power BI dashboard
 
