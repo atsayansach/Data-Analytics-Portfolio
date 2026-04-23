@@ -107,7 +107,7 @@ Record labels could use this analysis to assess what audio features are trending
 
 ### Task 
 
-I produced a [dashboard](spotifytableau.png) that showcased different visuals that I had created in Tableau to analyse popularity in Spotify. The first step was to clean the data. Here, I needed to be careful because track ID's were repeated in the dataset, however, this was because the tracks were part of different genres, and to carry out a genre=level analysis, I needed to ensure that I did not remove those duplicates. I then created visuals in Tableau for the popularity analyses I wanted to do which were a bar chart comparing popularity across genres, a bar chart comparing popularity across artists, a scatter plot comparing danceability against popularity, and a scatter plot comparing duration against popularity. I then wrote up my findings.
+I produced a [dashboard](https://public.tableau.com/views/SpotifyAnalysisAS/SpotifyAnalysis?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) that showcased different visuals that I had created in Tableau to analyse popularity in Spotify. The first step was to clean the data. Here, I needed to be careful because track ID's were repeated in the dataset, however, this was because the tracks were part of different genres, and to carry out a genre=level analysis, I needed to ensure that I did not remove those duplicates. I then created visuals in Tableau for the popularity analyses I wanted to do which were a bar chart comparing popularity across genres, a bar chart comparing popularity across artists, a scatter plot comparing danceability against popularity, and a scatter plot comparing duration against popularity. I then wrote up my findings.
 
 ### Insights 
 
