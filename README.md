@@ -12,7 +12,7 @@ The purpose of this portfolio is to showcase the wide range of skills and experi
 
 ## Regional Sales Analysis with Pivot Tables
 
-### Dataset ![dataimage](dataicon.png)
+### Dataset
 
 - [Sales Volume Data](RegionSalesExcel.png)
 
@@ -28,7 +28,11 @@ Technology Retailers would use the analysis from this task because they can see 
 
 ### Task
 
-I produced a [Pivot Table](PivotTable.png) that showed the sales volumes by product and region. The first step was to clean the data. I then inserted a Pivot Table from the data and filled blanks with 0 to get a table from which I could analyse the sales volumes of each product in each region. I then wrote up my findings.
+I produced a [Pivot Table](PivotTable.png) that showed the sales volumes by product and region. 
+
+- The first step was to clean the data. 
+- I then inserted a Pivot Table from the data
+- I filled blanks with 0 to get a table from which I could analyse the sales volumes of each product in each region.
 
 ### Insights
 
@@ -77,7 +81,12 @@ The analysis would benefit a pharmaceutical company because they can use the ana
 
 ### Task: 
 
-I produced a [visual](tableauvisual.png) that showed stomach cancer cases in 5 different continents by men and women. I began the task by cleaning the data in Excel, exploring the data, and loading it into Tableau. I then selected the fields I would need for my analysis which were Stomach Cancer, Gender, and Continent. I selected a bar chart as the visual suited for comparing the number of stomach cancer cases across gender and continents and formatted the bars to distinguish male and female cases. I then wrote up my findings.
+I produced a [visual](tableauvisual.png) that showed stomach cancer cases in 5 different continents by men and women. 
+
+- I began the task by cleaning the data in Excel, exploring the data, and loading it into Tableau. 
+- I then selected the fields I would need for my analysis which were Stomach Cancer, Gender, and Continent. 
+- I selected a bar chart as the visual suited for comparing the number of stomach cancer cases across gender and continents
+- I formatted the bars to distinguish male and female cases.
 
 ### Insights 
 
@@ -107,7 +116,11 @@ Record labels could use this analysis to assess what audio features are trending
 
 ### Task 
 
-I produced a [dashboard](https://public.tableau.com/views/SpotifyAnalysisAS/SpotifyAnalysis?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) that showcased different visuals that I had created in Tableau to analyse popularity in Spotify. The first step was to clean the data. Here, I needed to be careful because track ID's were repeated in the dataset, however, this was because the tracks were part of different genres, and to carry out a genre=level analysis, I needed to ensure that I did not remove those duplicates. I then created visuals in Tableau for the popularity analyses I wanted to do which were a bar chart comparing popularity across genres, a bar chart comparing popularity across artists, a scatter plot comparing danceability against popularity, and a scatter plot comparing duration against popularity. I then wrote up my findings.
+I produced a [dashboard](https://public.tableau.com/views/SpotifyAnalysisAS/SpotifyAnalysis?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) that showcased different visuals that I had created in Tableau to analyse popularity in Spotify. 
+
+- The first step was to clean the data. Here, I needed to be careful because track ID's were repeated in the dataset, however, this was because the tracks were part of different genres, and to carry out a genre=level analysis, I needed to ensure that I did not remove those duplicates. 
+- I then created visuals in Tableau for the popularity analyses I wanted to do which were a bar chart comparing popularity across genres, a scatter plot comparing tempo against popularity, a scatter plot comparing danceability against popularity, and a scatter plot comparing duration against popularity.
+- I then created a dashboard with all 4 visuals evenly spaced out ensuring all relevant information can be seen.
 
 ### Insights 
 
@@ -167,11 +180,13 @@ This task would be important for a logistics company because they would be able 
 
 ### Task
 
-I [queried](SQL_example_queries.txt) world database, learning and using SQL functions to analyse and manipulate the data. I began by uploading the world.db database to MySQL Workbench, ensuring the world schema became available to use. I then used SELECT, FROM, and WHERE functions to explore the data and understand the database. I then used more functions such as COUNT, JOIN, CONCAT, DROP to explore using CRUD operators in MySQL. 
+I [queried](SQL_example_queries.txt) world database, learning and using SQL functions to analyse and manipulate the data. 
 
-I also produced an [EERD](EERDiagram.png) (Enhanced-Entity Relationship Diagram) to showcase the relationships between entities/tables in the schema. 
-
-For the population analysis, I used ORDER BY, DESC, and ASC to discover which countries and cities had the highest and lowest populations.
+- I began by uploading the world.db database to MySQL Workbench, ensuring the world schema became available to use. 
+- I then used SELECT, FROM, and WHERE functions to explore the data and understand the database. 
+- I then used more functions such as COUNT, JOIN, CONCAT, DROP to explore using CRUD operators in MySQL. 
+- I also produced an [EERD](EERDiagram.png) (Enhanced-Entity Relationship Diagram) to showcase the relationships between entities/tables in the schema. 
+- For the population analysis, I used ORDER BY, DESC, and ASC to discover which countries and cities had the highest and lowest populations.
 
 ### Insights 
 
@@ -202,7 +217,10 @@ This task would be important for the bicycle company that the database is for as
 
 ### Task 
 
-I [queried](adventureworksdbsql.txt) an Adventure Works database to answer business questions. I began by deploying an SQL database in the Azure SQL Database environment, configuring settings, and selecting the Adventure Works sample database to load up. I then began to query the database with SQL in the Azure Query Editor. I structured my queries based on the data required to answer the questions. Examples of business questions asked were what are total sales per customer, what products are premium and are above average list price, and which product had the highest profit margin.
+I [queried](adventureworksdbsql.txt) an Adventure Works database to answer business questions. 
+
+- I began by deploying an SQL database in the Azure SQL Database environment, configuring settings, and selecting the Adventure Works sample database to load up. 
+- I then began to query the database with SQL in the Azure Query Editor. I structured my queries based on the data required to answer the questions. Examples of business questions asked were what are total sales per customer, what products are premium and are above average list price, and which product had the highest profit margin.
 
 ### Summary
 
@@ -226,7 +244,12 @@ This task shows that I can use Microsoft Azure, and Azure SQL Database to query 
 
 ### Task
 
-I analysed the student.csv dataset with Python in [Google Colab](studentanalysis.iypnb). I began by importing pandas, matplotlib, and seaborn libraries into my notebook, mounted the notebook to Google Drive, and then imported the student.csv dataset into the notebook. I then set the student.csv dataframe as df to make coding easier. I explored the data using coding like df.head() to understand the data, and used pandas functions to carry out analysis within the notebook. In addition, I cleaned the data using pandas, inserted new columns such as if the student passed, and grade, and I renamed the marks column to score. I then wrote up my results.
+I analysed the student.csv dataset with Python in [Google Colab](studentanalysis.iypnb). 
+
+- I began by importing pandas, matplotlib, and seaborn libraries into my notebook, mounted the notebook to Google Drive, and then imported the student.csv dataset into the notebook. 
+- I used pandas to set the student.csv dataframe as df to make coding easier. 
+- I explored the data using coding like df.head() to understand the data, and used other pandas functions to carry out analysis within the notebook. 
+- In addition, I cleaned the data using pandas, inserted new columns such as if the student passed, and grade, and I renamed the marks column to score.
 
 ### Insights
 
@@ -257,7 +280,12 @@ This task shows that I am capable of using Python to carry out data analysis and
 
 ### Task
 
- I analysed the GDP (nominal) per capita.csv dataset with Python in [Google Colab](GDPvisualisations.iypnb). I began by importing pandas, matplotlib, and seaborn libraries into my notebook, mounted the notebook to Google Drive, and then imported the dataset into the notebook. I then set the dataframe as df to make coding easier. I imported pyplot from matpolotlib as plt and used them in conjunction with pandas functions to plot scatter plots and histograms. I then used seaborn which I had imported as sns earlier to plot heatmaps and barplots. I then wrote up my findings.
+ I analysed the GDP (nominal) per capita.csv dataset with Python in [Google Colab](GDPvisualisations.iypnb). 
+ 
+ - I began by importing pandas, matplotlib, and seaborn libraries into my notebook, mounted the notebook to Google Drive, and then imported the dataset into the notebook. 
+ - I then used pandas to set the dataframe as df to make coding easier. 
+ - I imported pyplot from matpolotlib as plt and used them in conjunction with pandas functions to plot scatter plots and histograms. 
+ - I then used seaborn which I had imported as sns earlier to plot heatmaps and barplots. I then wrote up my findings.
 
 ### Insights
 
@@ -287,7 +315,14 @@ This analysis could be used by sports media organisations who can use the data-d
 
 ### Task
 
-I produced a [dashboard](https://app.powerbi.com/links/9z0-17z2PR?ctid=3ea7c128-c601-4479-a003-e14d00c0b5cb&pbi_source=linkShare) that showcased different visuals that I had created in Power BI concerning the effects of home advantage. I began by cleaning the data in Excel and exploring the data to find the fields I needed for my analysis. I then imported the dataset into Power BI and used Power Query Editor to transform the data, removing unnecessary columns and correcting data types. Following this, I applied a filter to the workpage to limit data to Top 5 leagues as they had the most consistent data coverage. I placed a slicer in the dashboard to choose which leagues to view, and created a pie chart to display proportions of home wins, away wins, and draws. I then created column charts for comparing home and away statistics for goals scored, shots on target, and corners won. Finally, I wrote down my findings.
+I produced a [dashboard](https://app.powerbi.com/links/9z0-17z2PR?ctid=3ea7c128-c601-4479-a003-e14d00c0b5cb&pbi_source=linkShare) that showcased different visuals that I had created in Power BI concerning the effects of home advantage. 
+
+- I began by cleaning the data in Excel and exploring the data to find the fields I needed for my analysis. 
+- I then imported the dataset into Power BI and used Power Query Editor to transform the data, removing unnecessary columns and correcting data types. 
+- Following this, I applied a filter to the workpage to limit data to Top 5 leagues as they had the most consistent data coverage. 
+- I placed a slicer in the dashboard to choose which leagues to view
+- I created a pie chart to display proportions of home wins, away wins, and draws. 
+- I then created column charts for comparing home and away statistics for goals scored, shots on target, and corners won.
 
 ### Insights
 
