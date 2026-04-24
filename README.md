@@ -10,8 +10,6 @@ The purpose of this portfolio is to showcase the wide range of skills and experi
 
 # Selected projects
 
-<br>
-
 # Excel             <img src="excel.png" width="35" alt="Excel Logo" align="top">
 
 ## Regional Sales Analysis with Pivot Tables
@@ -158,7 +156,7 @@ I produced a [dashboard](https://public.tableau.com/views/SpotifyAnalysisAS/Spot
 
 - The first step was to clean the data. Here, I needed to be careful because track ID's were repeated in the dataset, however, this was because the tracks were part of different genres, and to carry out a genre=level analysis, I needed to ensure that I did not remove those duplicates.
 
-- I then created visuals in Tableau for the popularity analyses I wanted to do which were a bar chart comparing popularity across genres, a scatter plot comparing tempo against popularity, a scatter plot comparing danceability against popularity, and a scatter plot comparing duration against popularity.
+- I then created visuals in Tableau for the popularity analyses I wanted to do which were a **bar chart** comparing popularity across genres, a **scatter plot** comparing tempo against popularity, a **scatter** plot comparing danceability against popularity, and a **scatter plot** comparing duration against popularity.
 
 - I then created a dashboard with all 4 visuals evenly spaced out ensuring all relevant information can be seen.
 
@@ -194,13 +192,13 @@ I created a **dashboard** to present different visualisations that a stakeholder
 
 - First I loaded the database into Power BI, using the Power Query Editor to transform the data, setting data types and removing unnecessary columns
 
-- Following this, I created a visual for sales and profit margins by month, using columns for sales and a line for profit margin.
+- Following this, I created a visual for sales and profit margins by month, using **columns** for sales and a **line** for profit margin.
 
-- After this, I created a visual for sales by product category in North America, using a 100% stacked column chart to show proportions amounting to the total clearly.
+- After this, I created a visual for sales by product category in North America, using a **100% stacked column chart** to show proportions amounting to the total clearly.
 
-- The next visual was a bar chart to compare the sales of different product categories
+- The next visual was a **bar chart** to compare the sales of different product categories
 
-- Finally, I added a logo and added two slicers - one for fiscal year, and one for region, to allow for filtering in the dashboard.
+- Finally, I added a logo and added two **slicers** - one for fiscal year, and one for region, to allow for filtering in the dashboard.
 
 <br>
 
@@ -250,7 +248,7 @@ I [queried](SQL_example_queries.txt) world database, learning and using SQL func
 
 <br>
 
-- For the population analysis, I used ORDER BY, DESC, and ASC to discover which countries and cities had the highest and lowest populations.
+- For the population analysis, I used **ORDER BY, DESC, and ASC** to discover which countries and cities had the highest and lowest populations.
 
 ### Insights 
 
@@ -317,9 +315,11 @@ I analysed the student.csv dataset with Python in [Google Colab](https://colab.r
 
 - I used pandas to set the student.csv dataframe as df to make coding easier. 
 
-- I explored the data using coding like df.head() to understand the data, and used other pandas functions to carry out analysis within the notebook.
+- I explored the data using coding like df.head() to understand the data, and used other pandas functions such as **df.describe()** to carry out analysis within the notebook.
 
-- In addition, I cleaned the data using pandas, inserted new columns such as if the student passed, and grade, and I renamed the marks column to score.
+- I cleaned the data using pandas, inserted new columns such as if the student passed, and grade. The grade column used **elif** statements to get different returns of grades depending on score.
+
+- I renamed the marks column to score using **df.rename()**
 
 ### Insights
 
@@ -356,9 +356,9 @@ This task shows that I am capable of using Python to carry out data analysis and
 
  - I then used pandas to set the dataframe as df to make coding easier. 
 
- - I imported pyplot from matpolotlib as plt and used them in conjunction with pandas functions to plot scatter plots and histograms.
+ - I imported pyplot from matpolotlib as plt and used them in conjunction with pandas functions to plot **scatter plots and histograms**.
 
- - I then used seaborn which I had imported as sns earlier to plot heatmaps and barplots.
+ - I then used seaborn which I had imported as sns earlier to plot **heatmaps and barplots**.
 
  <br>
 
