@@ -12,7 +12,7 @@ The purpose of this portfolio is to showcase the wide range of skills and experi
 
 ## Regional Sales Analysis with Pivot Tables
 
-### Dataset
+### Dataset <img src="dataicon.png" width="20" alt="description" align="top">
 
 - [Sales Volume Data](RegionSalesExcel.png)
 
@@ -52,7 +52,7 @@ This task shows that I am capable of using Excel to analyse data by using pivot 
 
 ## Visualising Revenue by Age Groups in Excel
 
-### Dataset
+### Dataset <img src="dataicon.png" width="20" alt="description" align="top">
 
 - Bike Sales Visualisations Lab
 
@@ -92,7 +92,7 @@ This task shows that I can create visuals in Excel that give meaningful insights
 
 ## Stomach Cancer analysis using a Tableau visual
 
-### Dataset 
+### Dataset <img src="dataicon.png" width="20" alt="description" align="top">
 
 - Gapminder Health
 
@@ -120,7 +120,7 @@ I produced a **visual** that showed stomach cancer cases in 5 different continen
 
 <br>
 
-<img src="tableauvisual.png" width="1000" alt="description">
+<img src="tableauvisual.png" width="1000" alt="Tableau Visual">
 
 ### Insights 
 
@@ -134,7 +134,7 @@ This task proves that I am capable of creating appealing visuals in Tableau that
 
 ## Popularity Analysis for Spotify tracks in a Tableau dashboard
 
-### Dataset
+### Dataset <img src="dataicon.png" width="20" alt="description" align="top">
 
 - Spotify Features
 
@@ -170,7 +170,7 @@ This tasks shows that I can create meaningful dashboards in Tableau that stakeho
 
 ## Power BI dashboard for bicycle company sales
 
-### Dataset
+### Dataset <img src="dataicon.png" width="20" alt="description" align="top">
 
 - adventureworks.db
 
@@ -200,7 +200,7 @@ I created a **dashboard** to present different visualisations that a stakeholder
 
 <br>
 
-<img src="powerbibikedashboard.png" width="1000" alt="description">
+<img src="powerbibikedashboard.png" width="1000" alt="Power BI dashboard">
 
 ### Insights
 
@@ -214,7 +214,7 @@ This task proves that I can create a dashboard that has meaningful visuals and p
 
 ## MySQL Queries and Population Analysis
 
-### Database
+### Database <img src="dataicon.png" width="20" alt="description" align="top">
 
 - world.db
 
@@ -238,11 +238,11 @@ I [queried](SQL_example_queries.txt) world database, learning and using SQL func
 
 - I then used more functions such as COUNT, JOIN, CONCAT, DROP to explore using CRUD operators in MySQL. 
 
-- I also produced an [EERD](EERDiagram.png) (Enhanced-Entity Relationship Diagram) to showcase the relationships between entities/tables in the schema.
+- I also produced an EERD (Enhanced-Entity Relationship Diagram) to showcase the relationships between entities/tables in the schema.
 
 <br>
 
-<img src="EERDiagram.png" width="500" alt="description">
+<img src="EERDiagram.png" width="500" alt="EERD">
 
 <br>
 
@@ -260,7 +260,7 @@ This task shows that I am able to use SQL to query databases and analyse data, a
 
 ## Azure SQL Database
 
-### Database
+### Database <img src="dataicon.png" width="20" alt="description" align="top">
 
 - adventureworks.db
 
@@ -291,7 +291,7 @@ This task shows that I can use Microsoft Azure, and Azure SQL Database to query 
 
 ## Student scores analysis with Python in Google Colab
 
-### Dataset 
+### Dataset <img src="dataicon.png" width="20" alt="description" align="top">
 
 - The dataset used for this analysis was student.csv
 
@@ -330,7 +330,7 @@ This task shows that I am capable of using Python to carry out data analysis and
 
 ## GDP per capita analysis and visualisations with Python in Google Colab
 
-### Dataset 
+### Dataset <img src="dataicon.png" width="20" alt="description" align="top">
 
 - The dataset used for this analysis was GDP (nominal) per capita.csv
 
@@ -370,7 +370,7 @@ This task shows that I am capable of using Python to carry out data analysis and
 
 ## Home advantage in football Power BI dashboard
 
-### Dataset
+### Dataset <img src="dataicon.png" width="20" alt="description" align="top">
 
 - Club Football Match Data (2000 - 2025)
 
