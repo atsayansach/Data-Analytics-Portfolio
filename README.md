@@ -10,7 +10,7 @@ The purpose of this portfolio is to showcase the wide range of skills and experi
 
 # Selected projects
 
-# Excel             <img src="excel.png" width="50" alt="Excel Logo" align="middle">
+# Excel             <img src="excel.png" width="50" alt="Excel Logo" align="top">
 
 ## Regional Sales Analysis with Pivot Tables
 
@@ -250,6 +250,12 @@ I [queried](SQL_example_queries.txt) world database, learning and using SQL func
 
 - For the population analysis, I used **ORDER BY, DESC, and ASC** to discover which countries and cities had the highest and lowest populations.
 
+
+```
+SELECT code, name, population
+FROM country
+ORDER BY population desc;
+```
 ### Insights 
 
 - China has the highest population. This could suggest to a logistics company that there are more customers in China, and to reach them, it would be best to locate more warehouses in China, and have more shipping zones there.
@@ -287,6 +293,27 @@ I [queried](adventureworksdbsql.txt) an Adventure Works database to answer busin
 
 - Examples of business questions asked were what are total sales per customer, what products are premium and are above average list price, and which product had the highest profit margin.
 
+<br>
+E.g. Scenario: The customer success team wants to calculate the total value of orders placed by each customer to identify high-value clients for loyalty programs. 
+
+<br>
+ 
+
+```
+select c.FirstName, c.LastName, SUM(sod.UnitPrice * sod.OrderQty) as TotalSales 
+
+from SalesLT.Customer c 
+
+join SalesLT.SalesOrderHeader soh ON c.CustomerID = soh.CustomerID 
+
+join SalesLT.SalesOrderDetail sod ON soh.SalesOrderID = sod.SalesOrderID 
+
+group by c.FirstName, c.LastName 
+
+order by TotalSales desc;
+
+```
+
 ### Summary
 
 This task shows that I can use Microsoft Azure, and Azure SQL Database to query databases, and I am able to use SQL to answer business questions
@@ -317,9 +344,25 @@ I analysed the student.csv dataset with Python in [Google Colab](https://colab.r
 
 - I explored the data using coding like df.head() to understand the data, and used other pandas functions such as **df.describe()** to carry out analysis within the notebook.
 
-- I cleaned the data using pandas, inserted new columns such as if the student passed, and grade. The grade column used **elif** statements to get different returns of grades depending on score.
+- I cleaned the data using pandas, and renamed the marks column to score using **df.rename()**
 
-- I renamed the marks column to score using **df.rename()**
+- I inserted new columns such as if the student passed, and grade. The grade column used **elif** statements to get different returns of grades depending on score.
+
+```
+def grade_check(score):
+    if score >= 85:
+        return "A"
+    elif score >= 70:
+        return "B"
+    elif score >= 60:
+        return "C"
+    else:
+        return "D"
+
+df["grade"] = df["score"].apply(grade_check)
+
+df.head()
+```
 
 ### Insights
 
