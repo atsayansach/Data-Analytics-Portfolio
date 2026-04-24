@@ -10,7 +10,7 @@ The purpose of this portfolio is to showcase the wide range of skills and experi
 
 # Selected projects
 
-# Excel             <img src="excel.png" width="35" alt="Excel Logo" align="top">
+# Excel             <img src="excel.png" width="50" alt="Excel Logo" align="middle">
 
 ## Regional Sales Analysis with Pivot Tables
 
